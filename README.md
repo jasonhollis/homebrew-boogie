@@ -9,10 +9,10 @@ Send, read, search, sync, and manage mail (and run as an MCP server) from your
 terminal. Credentials live in the macOS Keychain; no telemetry.
 
 ```sh
-brew install https://boogie.digital/cli/jmapcli.rb
+brew install jasonhollis/boogie/jmapcli
 ```
 
-Existing tap users (`brew tap jasonhollis/boogie`) still get upgrades from this repo until a Boogie GitHub org exists.
+Homebrew 6+ will not install a raw formula URL. The fully-qualified name taps and trusts only this formula.
 
 - Binary-only (closed source); the signed, notarised binary is hosted on
   `boogie.digital`.
