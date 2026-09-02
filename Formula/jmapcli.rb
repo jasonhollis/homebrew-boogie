@@ -1,7 +1,7 @@
 # Homebrew formula for jmapcli — Boogie's JMAP command-line client.
 # Binary-only (closed source); the signed, notarised binary is hosted on
 # boogie.digital. Preferred install (no GitHub username):
-#   brew install https://boogie.digital/cli/jmapcli.rb
+#   brew install boogie-digital/boogie/jmapcli
 class Jmapcli < Formula
   desc "JMAP email + calendar client for the command line (by Boogie)"
   homepage "https://boogie.digital/cli/"
